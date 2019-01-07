@@ -1,5 +1,7 @@
 package com.sfgpetclinic.services;
 
-public interface VetService extends CrudService<T, Long> {
+import com.sfgpetclinic.model.Vet;
+
+public interface VetService extends CrudService<Vet, Long> {
 
 }
